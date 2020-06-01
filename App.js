@@ -49,7 +49,6 @@ export default function App() {
         renderItem={
           previsao=>(
           <PrevisaoItem previsao={previsao}/>
-          //<Text>{JSON.stringify(previsao)}</Text>
           )
         }
       />
